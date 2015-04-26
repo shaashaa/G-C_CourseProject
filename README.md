@@ -1,8 +1,8 @@
 # G-C_CourseProject
--Data for the project:
+- Data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
--The R script run_analysis.R,
+- The R script run_analysis.R,
 -(1) Reads the training and test data; And then Merges the training and the test sets using rbind
 -(2) Reads the festures data; Extracts the columns which has mean() or std() in their names; And then extracts the mean and standard deviation for each measurement
 -(3) Reads the activities_label data; Updates with correct activity names and also update the column name
